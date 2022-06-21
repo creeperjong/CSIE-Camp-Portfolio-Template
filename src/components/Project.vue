@@ -10,6 +10,6 @@ defineProps({
     <div>
         Name: {{ name }}<br />
         Description: {{ description }}<br />
-        Image: {{ image }}<br />
+        <img :src = "image" class="" />
     </div>
 </template>
